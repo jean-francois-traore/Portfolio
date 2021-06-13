@@ -1,0 +1,51 @@
+.HomePage{
+    width: 100%;
+}
+.title-text{
+    color: white;
+    text-align: left;
+    font-size: 3.6rem;
+    // span{
+    //     color: white;
+    // }
+}
+.para-text-1{
+    text-align: center;
+    // padding: 2rem 0;
+    font-size: 5rem;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.1rem #8e8f94;
+    color: black;
+    @media screen and (max-width: 1300px){
+        font-size: 4rem;
+    }
+    @media screen and (max-width: 1100px){
+        font-size: 3rem;
+    }
+    @media screen and (max-width: 800px){
+        font-size: 2.9rem;
+    }
+    @media screen and (max-width: 700px){
+        font-size: 2.5rem;
+    }
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 1.5rem 0;
+    .icon-link{
+        margin-right: 1rem;
+        .icon{
+            font-size: 2.4rem;
+            color: #a4acc4;
+        }
+        .github:hover{
+            color: yellow;
+        }
+        .link:hover{
+            color: yellow;
+        }
+    }
+}

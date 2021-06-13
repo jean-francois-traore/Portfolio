@@ -1,0 +1,32 @@
+@import './styles/layout';
+@import './styles/navBar';
+@import './styles/homePage';
+@import './styles/avatar';
+@import './styles/title';
+@import './styles/skills';
+@import './styles/contact';
+@import './styles/portfolios';
+@import './styles//allSlyde.scss';
+@import './styles//modal.scss';
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #a4acc4;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 411px) {
+    html{
+        font-size: 70%;
+    }
+}

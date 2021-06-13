@@ -1,0 +1,51 @@
+.contact{
+    width: 100%;
+    margin-top: 4rem;
+    .input{
+        width: 100%;
+    }
+    div{
+        margin: 1rem 0;
+    }
+    input{
+        width: 100%;
+        height: 2.5rem;
+        outline: none;
+        border-color: white;
+        color: black;
+        font-size: 1.3rem;
+        padding: 0 0 0 0.3rem;
+        border-radius: .2rem;
+        border-style: solid;
+    }
+    textarea{
+        width: 100%;
+        height: 15rem;
+        outline: none;
+        border-color: white;
+        color: black;
+        font-size: 1.4rem;
+        padding: 0 0 0 0.3rem;
+        border-radius: .2rem;
+        max-width: 100%;
+        resize: none;
+    }
+    button{
+        width: 100%;
+        text-align: center;
+        height: 2.5rem;
+        background-color: white;
+        font-size: 1.3rem;
+        outline: none;
+        border: solid white;
+        color: black;
+        border-radius: .2rem;
+    }
+}
+.email-tel{
+    display: flex;
+    justify-content: space-between;
+    .email-1, .telephone-1{
+        width: 48%;
+    }
+}

@@ -1,0 +1,49 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carouselContainer{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.carousel img{
+    width: 100%;
+    margin: auto;
+    height: 550px;
+    display: none;
+}
+img.active{
+    display: block;
+    animation: fade 0.8s;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.cont-btn{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.btn-nav{
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.snap{
+    display: flex;
+    line-height: 2rem;
+    
+}
+.snap-infos-right{
+    margin-left: 2.3rem;
+}
