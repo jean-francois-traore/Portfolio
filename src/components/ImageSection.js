@@ -33,7 +33,7 @@ Les langages appris au fil de ses projets : HTML, CSS, JS, NODE JS, REACT, REACT
                         <p>: France</p>
                     </div>
                 </div>
-                <button className='btn'><a href='../img/CV - Jean-François TRAORE.pdf'></a>Telecharger CV</button>
+                <button className='btn'><a href='https://drive.google.com/file/d/144ymzFG7eaT47FTZegNerZX0_KhG6h3Y/view?usp=sharing'></a>Telecharger CV</button>
             </div>
         </div>
     )
