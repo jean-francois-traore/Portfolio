@@ -9,7 +9,12 @@ function ImageSection(){
             <div className="avatar-info">
                 <h4><span>Jean-françois</span></h4>
                 <p className='avatar-text-1'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, purus quis volutpat feugiat, est ex faucibus eros, in suscipit lacus augue a mi. Nulla congue ipsum urna, eget rutrum ligula congue eget. Proin sollicitudin, lorem scelerisque tincidunt mollis, dolor orci vehicula tellus, id porttitor eros ante dapibus nibh. Nunc erat odio, pulvinar ut laoreet ut, lobortis eget nibh. Sed vehicula, enim vitae                </p>
+                Je suis Jean-François Traoré, en formation à la Web@cademie by EPITECH. Une formation pas 
+comme les autres : pas de cours, une pédagogie par projets, un apprentissage de l'autonomie et 
+de la collaboration.
+En un peu moins d'un an, nous avons développé 12 projets (individuellement ou en groupe) : d'un site similaire à Twitter à un framework MVC en passant par un jeu de stratégie. 
+
+Les langages appris au fil de ses projets : HTML, CSS, JS, NODE JS, REACT, REACT NATIVE, LARAVEL, SYMFONY......</p>
                 <div className='avatar-details'>
                     <div className='left-section'>
                         <p>Nom</p>
